@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number Guessing Game</title>
-    <link rel="stylesheet" href="C:\Users\User\PycharmProjects\Simple_Games_Projects\Number_Guessing_Game\static\styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <div class="game-container">
@@ -15,6 +15,6 @@
         <p id="message"></p>
         <p id="guesses-left">You have 3 guesses left.</p>
     </div>
-    <script src="C:\Users\User\PycharmProjects\Simple_Games_Projects\Number_Guessing_Game\static\script.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

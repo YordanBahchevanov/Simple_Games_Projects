@@ -8,8 +8,7 @@ random_number: int = randint(lower_num, higher_num)
 guesses_left = 3
 
 
-# print(f"Guess the number in the range from {lower_num} to {higher_num}")
-
+@app.route("/")
 def index():
     return render_template("index.html")
 
