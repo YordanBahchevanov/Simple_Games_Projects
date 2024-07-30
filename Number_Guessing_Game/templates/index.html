@@ -13,11 +13,11 @@
         <div id="game-elements" style="display: none;">
             <p>Guess the number in the range from 1 to 10</p>
             <input type="number" id="guess-input" placeholder="Enter your guess">
-            <button onclick="makeGuess()">Guess</button>
-            <p id="message"></p>
+            <button id="guess-button" onclick="makeGuess()">Guess</button>
             <p id="guesses-left">You have 3 guesses left.</p>
         </div>
     </div>
+    <p id="message"></p>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

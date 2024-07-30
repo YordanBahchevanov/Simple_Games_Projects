@@ -19,10 +19,11 @@ def guess():
     data = request.get_json()
     user_guess = data.get("guess")
 
-    if user_guess is None or higher_num < user_guess or user_guess < lower_num:
+    if user_guess is None or not (lower_num <= user_guess <= higher_num):
         return jsonify({
             "message": "Please enter a valid number.",
             "guesses_left": guesses_left,
+            "correct": False,
         })
 
     if user_guess > random_number:
@@ -54,6 +55,7 @@ def guess():
     return jsonify({
         "message": message,
         "guesses_left": guesses_left,
+        "correct": False,
     })
 
 
