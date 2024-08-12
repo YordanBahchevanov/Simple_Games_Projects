@@ -20,12 +20,18 @@
     </form>
 
     {% if user_move %}
-        <h2>You chose: {{ user_move }}</h2>
-        <h2>AI chose: {{ ai_move }}</h2>
-        <h2>{{ result }}</h2>
+        <h2>Results:</h2>
+        <p>You: {{ user_move }}</p>
+        <p>AI: {{ ai_move }}</p>
+        <p>{{ result }}</p>
     {% endif %}
 
-    <h3>Player Wins: {{ player_wins }}</h3>
-    <h3>AI Wins: {{ ai_wins }}</h3>
+    <h2>Score:</h2>
+    <p>Player Wins: {{ player_wins }}</p>
+    <p>AI Wins: {{ ai_wins }}</p>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
 </body>
 </html>
