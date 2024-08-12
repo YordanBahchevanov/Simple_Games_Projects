@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from Rock_Paper_Scissors.game.models import GameScore
+from .models import GameScore
 import random
 
 
@@ -29,14 +29,13 @@ def index(request):
 
         score.save()
 
-        context = {
-            "user_move": user_move,
-            "ai_move": ai_move,
-            "result": result,
-            "player_wins": request.session.get("player_wins", 0),
-            "ai_wins": request.session.get("ai_wins", 0),
-        }
-        return render(request, 'index.html', context)
+        return render(request, 'index.html', {
+            'user_move': moves[user_move],
+            'ai_move': moves[ai_move],
+            'result': result,
+            'player_wins': score.player_wins,
+            'ai_wins': score.ai_wins
+        })
 
     return render(request, 'index.html')
 

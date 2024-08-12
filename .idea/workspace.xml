@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfe4017e-88c1-4578-acae-65f2dd415db9" name="Changes" comment="Creating project HTML, and managing project urls.">
+    <list default="true" id="dfe4017e-88c1-4578-acae-65f2dd415db9" name="Changes" comment="Score managing.">
+      <change afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/static/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/static/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/game/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/Rock_Paper_Scissors/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/Rock_Paper_Scissors/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/game/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/game/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +26,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,7 +71,7 @@
       <workItem from="1723495936872" duration="261000" />
       <workItem from="1723496412658" duration="227000" />
       <workItem from="1723496862300" duration="1208000" />
-      <workItem from="1723499200739" duration="2147000" />
+      <workItem from="1723499200739" duration="2977000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <option name="closed" value="true" />
@@ -132,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723499837932</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Score managing.">
+      <option name="closed" value="true" />
+      <created>1723501486304</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723501486304</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +155,7 @@
     <MESSAGE value="New" />
     <MESSAGE value="Creating django app" />
     <MESSAGE value="Creating project HTML, and managing project urls." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating project HTML, and managing project urls." />
+    <MESSAGE value="Score managing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Score managing." />
   </component>
 </project>
