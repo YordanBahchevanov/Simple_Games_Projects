@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+
+        <form method="post" id="gameForm">
+            {% csrf_token %}
+            <div class="input-group">
+                <label for="move">Choose your move:</label>
+                <select name="move" id="move">
+                    <option value="rock">Rock</option>
+                    <option value="paper">Paper</option>
+                    <option value="scissors">Scissors</option>
+                </select>
+            </div>
+            <button type="submit" class="btn">Play</button>
+        </form>
+
+        {% if user_move %}
+            <div class="result">
+                <h2>Results:</h2>
+                <div class="moves">
+                    <div class="move">
+                        <h3>You</h3>
+                        <div class="icon">{{ user_move }}</div>
+                    </div>
+                    <div class="move">
+                        <h3>AI</h3>
+                        <div class="icon">{{ ai_move }}</div>
+                    </div>
+                </div>
+                <p class="outcome">{{ result }}</p>
+            </div>
+        {% endif %}
+
+        <div class="scoreboard">
+            <h2>Score:</h2>
+            <p>Player Wins: {{ player_wins }}</p>
+            <p>AI Wins: {{ ai_wins }}</p>
+        </div>
+    </div>
+
+    <script src="{% static 'scripts.js' %}"></script>
+</body>
+</html>

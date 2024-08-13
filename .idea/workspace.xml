@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dfe4017e-88c1-4578-acae-65f2dd415db9" name="Changes" comment="Adding JS script to the HTML file">
+      <change afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/static/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/Rock_Paper_Scissors/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/Rock_Paper_Scissors/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/game/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/game/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kT8vZmfzNnp49yZCH5MpAESAcZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfe4017e-88c1-4578-acae-65f2dd415db9" name="Changes" comment="" />
+      <created>1723296439711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723296439711</updated>
+      <workItem from="1723296442076" duration="50000" />
+      <workItem from="1723494507824" duration="77000" />
+      <workItem from="1723495445444" duration="79000" />
+      <workItem from="1723495731829" duration="195000" />
+      <workItem from="1723495936872" duration="261000" />
+      <workItem from="1723496412658" duration="227000" />
+      <workItem from="1723496862300" duration="1208000" />
+      <workItem from="1723499200739" duration="2977000" />
+    </task>
+    <task id="LOCAL-00001" summary="New">
+      <option name="closed" value="true" />
+      <created>1723296457543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723296457543</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New">
+      <option name="closed" value="true" />
+      <created>1723495906870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723495906870</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New">
+      <option name="closed" value="true" />
+      <created>1723496003429</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723496003429</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New">
+      <option name="closed" value="true" />
+      <created>1723496563549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723496563549</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New">
+      <option name="closed" value="true" />
+      <created>1723497050633</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723497050633</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New">
+      <option name="closed" value="true" />
+      <created>1723497384903</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723497384903</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Creating django app">
+      <option name="closed" value="true" />
+      <created>1723499329984</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723499329984</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Creating project HTML, and managing project urls.">
+      <option name="closed" value="true" />
+      <created>1723499837932</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723499837932</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Score managing.">
+      <option name="closed" value="true" />
+      <created>1723501486304</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723501486304</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New" />
+    <MESSAGE value="Creating django app" />
+    <MESSAGE value="Creating project HTML, and managing project urls." />
+    <MESSAGE value="Score managing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Score managing." />
+  </component>
+</project>
