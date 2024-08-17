@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfe4017e-88c1-4578-acae-65f2dd415db9" name="Changes" comment="Adding JS script to the HTML file">
-      <change afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/static/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/static/styles.css" afterDir="false" />
+    <list default="true" id="dfe4017e-88c1-4578-acae-65f2dd415db9" name="Changes" comment="Score managing.">
+      <change beforePath="$PROJECT_DIR$/.idea/Simple_Games_Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Simple_Games_Projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/Rock_Paper_Scissors/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/Rock_Paper_Scissors/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/game/static/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/static/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/game/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/static/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/game/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rock_Paper_Scissors/game/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rock_Paper_Scissors/game/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,6 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2kT8vZmfzNnp49yZCH5MpAESAcZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -157,6 +157,10 @@
     <MESSAGE value="Creating django app" />
     <MESSAGE value="Creating project HTML, and managing project urls." />
     <MESSAGE value="Score managing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Score managing." />
+    <MESSAGE value="Hangman game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hangman game" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Simple_Games_Projects$app.coverage" NAME="app Coverage Results" MODIFIED="1723893964609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_Hangman" />
   </component>
 </project>

@@ -1,73 +1,50 @@
 body {
     font-family: Arial, sans-serif;
+    text-align: center;
     background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin: 0;
 }
 
 .container {
     text-align: center;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    color: #4CAF50;
-}
-
-.input-group {
-    margin-bottom: 15px;
-}
-
-.btn {
+.circle-button {
+    width: 100px;
+    height: 100px;
     background-color: #4CAF50;
-    color: #fff;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
     cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #45a049;
-}
-
-.result {
-    margin-top: 20px;
-}
-
-.moves {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-.move {
-    text-align: center;
+.move-button {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
-.icon {
-    font-size: 50px;
+.move-button i {
+    font-size: 48px;
+    color: #333;
 }
 
-.outcome {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.scoreboard {
-    margin-top: 20px;
-}
-
-.scoreboard p {
-    font-size: 18px;
+.hidden {
+    display: none;
 }

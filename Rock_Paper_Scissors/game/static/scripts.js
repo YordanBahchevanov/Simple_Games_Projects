@@ -1,12 +1,16 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('gameForm');
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('JavaScript loaded and running!');
+    const playButton = document.getElementById('playButton');
+    const moveButtonsContainer = document.getElementById('moveButtonsContainer');
 
-    form.addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission
+    // Hide move buttons initially
+    moveButtonsContainer.classList.add('hidden');
 
-        const move = document.getElementById('move').value;
+    playButton.addEventListener('click', () => {
+        // Hide the play button
+        playButton.classList.add('hidden');
 
-        // Simulate form submission or handle via AJAX if needed
-        form.submit();
+        // Show the move buttons
+        moveButtonsContainer.classList.remove('hidden');
     });
 });
